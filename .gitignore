@@ -1,0 +1,65 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+.python-version
+
+# Environment variables
+.env
+.env.*
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Scraped data
+*.json
+debug_html/
+profile_data*.json
+
+# Playwright browser data
+.playwright-browser-data/
+
+# Test files
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Documentation
+docs/_build/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.bak
+*~
+
+# Logs
+*.log
+logs/

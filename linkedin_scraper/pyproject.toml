@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linkedin-scraper"
+version = "0.1.0"
+description = "A Python package for scraping LinkedIn profile data"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Neeraj Menon", email = "neeraj_menon@thirdray.ai"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "aiohttp>=3.8.0",
+    "beautifulsoup4>=4.9.0",
+    "python-dotenv>=0.19.0",
+    "playwright>=1.20.0",
+    "asyncio>=3.4.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black>=21.0",
+    "isort>=5.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/neeraj-menon/Linkedin_Scraper"
+"Bug Tracker" = "https://github.com/neeraj-menon/Linkedin_Scraper/issues"
+
+[project.scripts]
+linkedin-scraper = "linkedin_scraper.main:main"
