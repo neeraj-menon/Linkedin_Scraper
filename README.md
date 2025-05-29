@@ -33,13 +33,13 @@ A Python package for scraping LinkedIn profile data. This package allows you to 
 ### From GitHub
 
 ```bash
-pip install git+https://github.com/neerajmenon/linkedin-scraper.git
+pip install git+https://github.com/neerajmenon/linkedin_scraper.git
 ```
 
 ### Development Installation
 
 ```bash
-git clone https://github.com/neerajmenon/linkedin-scraper.git
+git clone https://github.com/neerajmenon/linkedin_scraper.git
 cd linkedin-scraper
 pip install -e .
 ```
@@ -107,7 +107,7 @@ async def main():
         email='your_linkedin_email@example.com',
         password='your_linkedin_password'
     )
-    
+  
     if success:
         print("Profile data saved successfully!")
 
